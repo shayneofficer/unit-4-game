@@ -25,3 +25,16 @@ var maul = {
     attack: 8,
     counter: 25
 }
+
+var characterChoice = "test";
+var characterHealth;
+var characterAttack;
+
+$(".character").on("click", function () {
+    chooseCharacter(this.name);
+})
+
+function chooseCharacter(name) {
+    characterChoice = name;
+    console.log(characterChoice);
+}
