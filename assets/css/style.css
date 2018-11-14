@@ -1,0 +1,16 @@
+body {
+    background-image: url(../images/x-wing.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+    font-size: 2.5em;
+    float: right;
+}
+
+h2 {
+    font-size: 1.5em;
+
+}
